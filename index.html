@@ -15,9 +15,9 @@
         <label for="passwordLength" class="text-uppercase fw-bold">Panjang Password</label>
         <input class="form-control" id="passwordLength" type="number"/>
         <label for="password" class="text-uppercase fw-bold">Password</label>
-        <input class="form-control form-control-lg" id="password" type="password"/>
-        <button class="btn btn-primary text-uppercase fe-bold btn-lg mt-2">Generate Password</button>
-        <button class="btn btn-dark text-uppercase fe-bold btn-lg mt-2">Save Password</button>
+        <input class="form-control form-control-lg" id="password" disabled/>
+        <button class="btn btn-primary text-uppercase fe-bold btn-lg mt-2" onclick="getPassword()">Generate Password</button>
+        <a class="btn btn-dark text-uppercase fe-bold btn-lg mt-2" onclick="savePassword()" id="saveButton">Save Password</a>
     </div>
     </div>
     </div>
